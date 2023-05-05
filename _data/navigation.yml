@@ -7,13 +7,13 @@ main:
     url: /talks/    
     
   - title: "Notes"
-    url: /Notes/
+    url: /notes/
         
   - title: "Blog Posts"
     url: /year-archive/
     
   - title: "Activities"
-    url: /Activities/    
+    url: /activities/    
     
   - title: "CV"
     url: /cv/
