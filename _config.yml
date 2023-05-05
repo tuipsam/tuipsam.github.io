@@ -87,7 +87,7 @@ author:
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=Ua8A6B4AAAAJ&hl=en&oi=ao"
-  email            : "lianyu1216@gmail.com
+  email            : "lianyu1216@gmail.com"
   researchgate     : "https://www.researchgate.net/profile/Lianyu-Huang" # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -175,13 +175,13 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  notes:
     output: true
     permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  activities:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -192,6 +192,17 @@ collections:
 # Defaults
 defaults:
   # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+   # _activities
   - scope:
       path: ""
       type: posts
